@@ -167,6 +167,7 @@ header nav.menu-desktop ul li{
 }
 
 section .img-fundo-site{
+    max-width: 100vw;
     position: absolute; 
     opacity: 0.3;
     translate: 0px -100px;
