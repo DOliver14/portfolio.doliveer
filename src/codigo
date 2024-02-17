@@ -1,0 +1,149 @@
+ <div class="btn-social">
+                                <a href="https://www.linkedin.com/in/doliveer/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href="https://github.com/DOliver14" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                                <a href="https://www.facebook.com/kingdoliveer/" target="_blank"><button><i class="bi bi-facebook"></i></button></a>
+
+
+
+
+
+
+
+
+
+
+
+
+                                 MENU MOBILE
+                                <div class="btn-abrir-menu" id="btn-menu">
+                                    <i class="bi bi-list"></i>
+                                </div>
+                            
+                                <div class="menu-mobile" id="menu-mobile">
+                                    <div class="btn-fechar">
+                                        <i class="bi bi-x-lg"></i>
+                                    </div>
+                            
+                                    <nav >
+                                        <ul>
+                                        <li><a href="#">Inicio</a></li>
+                                        <li><a href="#">Especialidades</a></li>
+                                        <li><a href="#">Sobre</a></li>
+                                        <li><a href="#">Projetos</a></li>
+                                        <li><a href="#">Contato</a></li>
+                                        </ul>
+                                    </nav>
+                            
+
+                                    
+
+
+
+
+
+
+                                    <section class="especialidades">
+                                        <div class="interface">
+                                        <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                                        <div class="flex">
+                        
+                                        <div class="especialidades-box">
+                                        <i cdlass="bi bi-filetype-html"></i>
+                                        <h3>HTML</h3>
+                                        <p></p>Minha habilidade em HTML é intermediária, permitindo a criação e estruturação de páginas web. Tenho familiaridade com tags, elementos e formatação, facilitando a construção de conteúdo online.
+                                        </div><!--especialidades-box-->
+                        
+                                        <div class="especialidades-box">
+                                        <i class="bi bi-filetype-css"></i>
+                                        <h3>CSS</h3>
+                                        <p>Possuo habilidade intermediária em CSS, permitindo a estilização e o design de páginas web. Conhecimento em seletores, propriedades e layout para criar interfaces visualmente atraentes e responsivas.</p>
+                                        </div><!--especialidades-box-->
+                        
+                                        <div class="especialidades-box">
+                                        <i class="bi bi-filetype-js"></i>
+                                        <h3>JAVASCRIPT</h3>
+                                        <p>Minha habilidade intermediária em JavaScript permite manipulação de elementos HTML, interatividade e desenvolvimento de recursos dinâmicos em páginas web. Conhecimento em eventos, funções e estruturas de controle.</p>
+                                        </div><!--especialidades-box-->
+                        
+                                        <div class="especialidades-box">
+                                        <i class="bi bi-filetype-java"></i>
+                                        <h3>JAVA</h3>
+                                        <p>Minha habilidade intermediária em Java me permite desenvolver aplicações multiplataforma e orientadas a objetos. Conhecimento em estruturas de controle, manipulação de dados e criação de soluções escaláveis.</p>
+                                        </div><!--especialidades-box-->
+                        
+                                        </div><!--flex---->
+                                        </div><!--interface-->
+                        
+                                        <div class="interface" >
+                                        <div class="flex">
+                        
+                                        <div class="especialidades-box">
+                                        <i class="bi bi-git"></i>
+                                        <h3>GIT</h3>
+                                        <p>Possuo habilidade intermediária em Git, capacitando-me a gerenciar versionamento de código, criar branches, fazer merge e colaborar eficientemente em projetos. Conhecimento em comandos básicos e resolução de conflitos.</p>
+                                        </div><!--especialidades-box-->
+                        
+                                        <div class="especialidades-box">
+                                        <i class="bi bi-github"></i>
+                                        <h3>GITHUB</h3>
+                                        <p>Minha habilidade intermediária no GitHub inclui a criação de repositórios, colaboração em projetos, gerenciamento de issues e pull requests, proporcionando uma contribuição eficaz ao desenvolvimento colaborativo de software.</p>
+                                        </div><!--especialidades-box-->
+                        
+                                        <div class="especialidades-box">
+                                        <i class="bi bi-code-square"></i>
+                                        <h3>BANCO DE DADOS</h3>
+                                        <p>Possuo habilidade intermediária em bancos de dados, abrangendo modelagem, consultas SQL e gerenciamento. Capacidade para desenvolver e manter estruturas de dados eficientes, facilitando a manipulação e recuperação de informações.</p>
+                                        </div><!--especialidades-box-->
+                        
+                                        <div class="especialidades-box">
+                                        <i class="bi bi-filetype-sql"></i>
+                                        <h3>SQL</h3>
+                                        <p>Minha habilidade intermediária em SQL envolve a criação e execução de consultas, manipulação de dados, e gerenciamento de bancos de dados relacionais. Conhecimento prático para extrair informações de forma eficiente.</p>
+                                        </div><!--especialidades-box-->
+                                        </div><!--flex---->
+                                        </div><!--interface-->
+                                    </section><!--Especialidade-->
+
+
+
+                                    /* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 35px 4%;
+    box-shadow: 0 0 40px 10px #15ff0010;
+    background-color: rgb(0, 0, 0);
+    margin: 30px;
+    /*border: blue solid;*/ /* BORDA DA DIV */ 
+}
+
+section.especialidades .flex{
+    justify-content: space-around;
+
+}
+
+.especialidades .especialidades-box{
+    color: #EAEAEA;
+    padding: 50px;
+    border-radius: 70px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px #50FA9D;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 50px;
+    color: #50FA9D;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+section.especialidades h2.titulo{ /*titulo pagina 2 */
+    position: relative;
+    top: -0px;
+}
